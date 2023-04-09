@@ -4,9 +4,11 @@
 
 int main (){
 
-    int i, x;
+    int i;
+    int x;
     char str[10];
 
+    printf("\nSegue abaixo a lista de valores de 1000 a 1:\n");
 
     for(i=1000; i >= 1; i--)
     {
@@ -24,5 +26,6 @@ int main (){
         }
 
     }
+    printf("\n\nFim do programa\n");
 
 }
